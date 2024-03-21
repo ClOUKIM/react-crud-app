@@ -1,0 +1,101 @@
+.form-center {
+  display: flex;
+}
+
+.form-group {
+  padding: 1rem, 0.75rem;
+  flex: 1;
+}
+
+label {
+  display: block;
+  color: var(--secondColor);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.form-control {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--secondColor);
+  outline: none;
+  height: 3rem;
+  width: 100%;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  padding: 0;
+}
+
+.item {
+  background-color: var(--mainColor);
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s linear;
+}
+
+.item:hover {
+  width: 100%;
+  transform: sxale(1.02);
+}
+
+.info {
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.expense {
+  margin-right: 2rem;
+}
+
+.amount {
+  font-weight: 300;
+  font-size: 1rem;
+  border-radius: 2px;
+  padding: 1px 3px;
+}
+
+.clear-btn,
+.edit-btn {
+  background: none;
+  padding-top: 3px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.clear-btn {
+  color: var(--mainRed);
+}
+
+.edit-btn {
+  color: var(--mainGreen);
+}
+
+#charge {
+  background-color: none;
+  border-bottom-style: dotted;
+  border-bottom-color: var(--secondColor);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#amount {
+  background-color: none;
+  border-bottom-style: dotted;
+  border-bottom-color: var(--secondColor);
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  padding: 10px;
+  width: 90%;
+}

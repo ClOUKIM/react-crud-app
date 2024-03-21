@@ -1,0 +1,24 @@
+.list {
+  list-style-type: none;
+  border: none;
+  padding: 0;
+}
+
+.btn {
+  background-color: var(--mainGreen);
+  border: none;
+  color: var(--mainWhite);
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+.btn-icon {
+  padding-top: 4px;
+  font-size: 1zpx;
+  margin-left: 5px;
+}
